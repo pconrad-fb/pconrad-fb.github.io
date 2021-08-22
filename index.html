@@ -1,4 +1,81 @@
+<!DOCTYPE html>
 <html>
-<head></head>
-<body><h1>GitHub Yay Test</h1>Editing online.</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Peter Conrad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <style>
+.image_full{
+   display:block;
+  }
+
+ .image_mobile{
+  display:none;
+ }
+
+@media (max-width: 640px) {
+  .image_full{
+   display:none;
+  }
+
+  .image_mobile{
+   display:block;
+  }
+}
+  </style>
+  </head>
+  <body bgcolor="#000000">
+    <header class="w3-container w3-black&gt;
+      &lt;center&gt;&lt;h1&gt;Peter Conrad&lt;/h1&gt;&lt;/center&gt;
+      &lt;/header&gt; &lt;!-- &lt;img src=" test.jpg"="" alt="Nice car"
+      style="width:100%"> --&gt;
+      <center><img src="http://www.peterconrad.com/ghost-web.png" class="image_full" alt="A picture
+          of a ghost"
+          onmouseover="document.getElementById('ghost').style.color='white';"
+onmouseout="document.getElementById('ghost').style.color='grey';"
+          height="495" width="500"> <img src="ghost-web.png"
+          class="image_mobile" style="width:100%"
+          onmouseover="document.getElementById('ghost').style.color='white';"
+onmouseout="document.getElementById('ghost').style.color='grey';"></center>
+      <div class="w3-container">
+        <p> I'm an artist and writer from the San Francisco Bay Area. </p>
+      </div>
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third"> <br>
+          <div class="w3-container"><br>
+          </div>
+        </div>
+        <div class="w3-third"> <br>
+          <div class="w3-container"><br>
+          </div>
+        </div>
+        <div class="w3-third"> <br>
+          <div class="w3-container">
+            <p><br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="w3-container w3-black w3-margin-top">
+        <center>
+          <div id="ghost" style="color:black;">
+            <p>p_e_t_e_r_@_p_e_t_e_r_c_o_n_r_a_d_._c_o_m</p>
+          </div>
+        </center>
+      </footer>
+    </header>
+    <script language="JavaScript">
+document.getElementById('ghost').innerHTML="<a href='mailto:peter" +
+"@" +
+"peterconrad" +
+".com" +
+"'>peter" +
+"@" +
+"peterconrad" +
+".com" +
+"</a>";
+</script>
+  </body>
 </html>
